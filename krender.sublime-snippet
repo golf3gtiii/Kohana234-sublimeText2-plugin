@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->auto_render = ${1:false};$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>krender</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>$this->auto_render</description>
+</snippet>

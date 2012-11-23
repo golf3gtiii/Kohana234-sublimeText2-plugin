@@ -11,6 +11,7 @@ Tip shortcut and press enter or tabulate.
 
 ### kohana
 **kconf** : Kohana::config('')
+
 **klang** : Kohana::lang('')
 
 ### ORM
@@ -18,14 +19,18 @@ Tip shortcut and press enter or tabulate.
 
 ### sessions
 **ktsg** : $this->session->get('')
+
 **kflash** : $this->session->set_flash()
 
 ### url shortcuts
 **kbase** : url::base()
+
 **kcurrent** : url::current()
+
 **kredirect** : url::redirect()
 
 ###Others
 **krender** : $this->auto_render = false
+
 **ktc** : $this->template->content
 

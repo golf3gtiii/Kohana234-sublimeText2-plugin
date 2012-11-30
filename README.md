@@ -34,3 +34,20 @@ Enter shortcut and press enter or tabulate.
 
 **ktc** : $this->template->content
 
+### mail
+**kswift** : 
+
+		$swift = email::connect();
+		$from = '';
+		
+		$subject = '';
+		$message = '';
+		
+		$recipients = new Swift_RecipientList;
+		$recipients->addTo('');
+		$message = new Swift_Message($subject, $message, "text/html");
+		$swift->send($message, $recipients, $from);
+		$swift->disconnect();
+		
+
+

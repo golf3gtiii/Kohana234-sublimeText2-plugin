@@ -7,32 +7,54 @@ Kohana v 2.3.4, Keyboard shortcuts for sublime text 2
 
 Enter shortcut and press enter or tabulate.
 
-**shortcut** : description
+**shortcut** : 
+
+		description
 
 ### kohana
-**kconf** : Kohana::config('')
+**kconf** : 
 
-**klang** : Kohana::lang('')
+		Kohana::config('')
+
+**klang** : 
+
+		Kohana::lang('')
 
 ### ORM
-**korm** : ORM::factory('')
+**korm** : 
+
+		ORM::factory('')
 
 ### sessions
-**ktsg** : $this->session->get('')
+**ktsg** : 
 
-**kflash** : $this->session->set_flash()
+		$this->session->get('')
+
+**kflash** : 
+
+		$this->session->set_flash()
 
 ### url shortcuts
-**kbase** : url::base()
+**kbase** : 
 
-**kcurrent** : url::current()
+		url::base()
 
-**kredirect** : url::redirect()
+**kcurrent** : 
+
+		url::current()
+
+**kredirect** : 
+		
+		url::redirect()
 
 ###Others
-**krender** : $this->auto_render = false
+**krender** : 
+		
+		$this->auto_render = false
 
-**ktc** : $this->template->content
+**ktc** : 
+		
+		$this->template->content
 
 ### mail
 **kswift** : 
@@ -49,5 +71,10 @@ Enter shortcut and press enter or tabulate.
 		$swift->send($message, $recipients, $from);
 		$swift->disconnect();
 		
+### Database
+**kquery** :
 
+		$db = new database('');
+		$query = "";
+		$results = $db->query($query);
 

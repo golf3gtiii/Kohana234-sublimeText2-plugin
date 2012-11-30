@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$db = new database(${1:''});
+\$query = "$2";
+\$results = \$db->query(\$query);$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kquery</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Kohana url::base()</description>
+</snippet>

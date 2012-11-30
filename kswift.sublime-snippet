@@ -16,5 +16,5 @@
 	<tabTrigger>kswift</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
-	<description>Kohana url::base()</description>
+	<description>Kohana send email</description>
 </snippet>

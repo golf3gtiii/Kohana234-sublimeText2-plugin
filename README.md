@@ -5,7 +5,7 @@ Kohana v 2.3.4, Keyboard shortcuts for sublime text 2
 
 ## Usage
 
-Tip shortcut and press enter or tabulate.
+Type shortcut and press enter or tabulate.
 
 **shortcut** : description
 

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+defined('SYSPATH') OR die('No direct access allowed.');
+
+class $1_Model extends ORM {
+	$0
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kmodel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Kohana model generator</description>
+</snippet>

@@ -25,10 +25,22 @@ Enter shortcut and press enter or tabulate.
 
 		ORM::factory('')
 
+**kmodel** : 
+
+		defined('SYSPATH') OR die('No direct access allowed.');
+		
+		class _Model extends ORM {
+			
+		}
+
 ### sessions
 **ktsg** : 
 
 		$this->session->get('')
+
+**ktss** : 
+
+		$this->session->set('', )
 
 **kflash** : 
 
